@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable-v24/res.xml" value="0.3411644535240041" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/button_style.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/colorzabutton.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/ic_baseline_fitness_center_24.xml" value="0.3411644535240041" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.3411644535240041" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/ic_biceps.xml" value="0.3411644535240041" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/ic_gain.xml" value="0.3411644535240041" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/ic_lovepik_sports_and_fitness_mobile_wallpaper_background_image_400338368.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/ic_meal.xml" value="0.3078125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/ic_news.xml" value="0.3411644535240041" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/round.xml" value="0.278125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/drawable/underline.xml" value="0.3411644535240041" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/activity_first.xml" value="0.2578125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/activity_login_acitivity.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/activity_main.xml" value="0.24170616113744076" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/activity_main2.xml" value="0.290625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/activity_personalization.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/activity_register.xml" value="0.2671875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/content_main.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/content_personalization.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/content_register.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_add_product.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_blank.xml" value="0.2328125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_calories_daily.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_daily_activity.xml" value="0.307518115942029" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_details_vezba.xml" value="0.30434782608695654" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_exercises.xml" value="0.2578125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_first.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_first2.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_first3.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_first_f.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_food_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_info.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_new_content_view.xml" value="0.67" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_recomended_calories.xml" value="0.30434782608695654" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_second.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_second2.xml" value="0.2980072463768116" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_vezbi.xml" value="0.253125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/fragment_water_daily.xml" value="0.3129528985507246" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/res.xml" value="0.32760416666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/row.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/row_for_muscles.xml" value="0.2625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/row_for_vezbi.xml" value="0.2140625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/row_for_water.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/row_searched_products.xml" value="0.328804347826087" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/layout/rowproduct.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/menu/menu_item_1.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/menu/menu_main.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitnesSAPp2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

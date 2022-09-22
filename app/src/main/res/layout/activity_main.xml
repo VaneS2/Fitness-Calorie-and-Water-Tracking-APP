@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ffffffff"
+    android:id="@+id/par"
+    tools:context=".MainActivity"
+   >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/navigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#09693F"
+        app:itemTextColor="#675555"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/par"
+        app:menu="@menu/menu_item_1">
+
+        <TextView
+            android:id="@+id/goreNaslov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good Shape"
+            android:textAlignment="gravity"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="#09693F"
+        app:itemIconTint="#ffff"
+        app:itemTextColor="#ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_main" />
+
+    <fragment
+        android:id="@+id/fragmentContainer"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="401dp"
+        android:layout_height="569dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navigationView2"
+        app:layout_constraintVertical_bias="0.4"
+        app:navGraph="@navigation/nav_graph"></fragment>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

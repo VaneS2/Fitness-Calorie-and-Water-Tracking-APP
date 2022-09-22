@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SecondFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Meal.MealFragment">
+
+    <ImageButton
+        android:id="@+id/gainWeight"
+        android:layout_width="186dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/gainnnn"
+        android:contentDescription="Gain Weight"
+        app:cardCornerRadius="82dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/maintainWeight"
+        app:layout_constraintEnd_toStartOf="@+id/loseWeight"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/loseWeight"
+        android:layout_width="173dp"
+        android:layout_height="131dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/lose"
+        android:contentDescription="Lose Weight"
+        app:layout_constraintBottom_toTopOf="@+id/maintainWeight"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/maintainWeight"
+        android:layout_width="175dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/maintain"
+        android:contentDescription="Mantain Weight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="312dp"
+        android:layout_height="94dp"
+        android:scrollbarSize="40dp"
+        android:text="WHAT IS YOUR MAIN GOAL?"
+        android:textAlignment="center"
+        android:textColor="#E02F2F"
+        android:textDirection="firstStrongRtl"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/loseWeight"
+        app:layout_constraintCircleRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+</androidx.constraintlayout.widget.ConstraintLayout>

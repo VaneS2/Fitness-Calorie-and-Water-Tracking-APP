@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ProfileFragment">
+
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="322dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="212dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="100dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileImage" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="397dp"
+        android:layout_height="269dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="1dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileName"
+        app:layout_constraintVertical_bias="0.557">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:text="Email:"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/emailProfile"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ease"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="50dp"
+            android:text="Age:"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/ageProfile"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="70dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView164"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="100dp"
+            android:text="Height:"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/heightProfile"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="120dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView145"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="150dp"
+            android:text="Weight:"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/weightProfile"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="170dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button777"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="200dp"
+
+            android:text="Edit" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

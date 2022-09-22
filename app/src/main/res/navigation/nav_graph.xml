@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.fitnessapp.Fragments.News.NewsFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_FirstFragment_to_newContentView"
+            app:destination="@id/newContentView" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.fitnessapp.Fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/exercisesFragment"
+        android:name="com.example.fitnessapp.Fragments.GYM.ExercisesFragment"
+        android:label="fragment_exercises"
+        tools:layout="@layout/fragment_exercises" >
+        <action
+            android:id="@+id/action_exercisesFragment_to_vezbiFragment"
+            app:destination="@id/vezbiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newContentView"
+        android:name="com.example.fitnessapp.Fragments.News.NewContentView"
+        android:label="fragment_new_content_view"
+        tools:layout="@layout/fragment_new_content_view" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.fitnessapp.Fragments.Meal.MealFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_dailyActivityFragment"
+            app:destination="@id/dailyActivityFragment" />
+        <action
+            android:id="@+id/action_secondFragment_to_caloriesDaily"
+            app:destination="@id/caloriesDaily" />
+    </fragment>
+    <fragment
+        android:id="@+id/dailyActivityFragment"
+        android:name="com.example.fitnessapp.Fragments.Meal.DailyActivityFragment"
+        android:label="fragment_daily_activity"
+        tools:layout="@layout/fragment_daily_activity" >
+        <action
+            android:id="@+id/action_dailyActivityFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.fitnessapp.Fragments.Meal.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" >
+        <action
+            android:id="@+id/action_infoFragment_to_caloriesDaily"
+            app:destination="@id/caloriesDaily" />
+    </fragment>
+    <fragment
+        android:id="@+id/caloriesDaily"
+        android:name="com.example.fitnessapp.Fragments.Meal.CaloriesDaily"
+        android:label="fragment_calories_daily"
+        tools:layout="@layout/fragment_calories_daily" >
+        <action
+            android:id="@+id/action_caloriesDaily_self"
+            app:destination="@id/caloriesDaily" />
+        <action
+            android:id="@+id/action_caloriesDaily_to_addProductFragment2"
+            app:destination="@id/addProductFragment2" />
+        <action
+            android:id="@+id/action_caloriesDaily_to_waterDaily"
+            app:destination="@id/waterDaily" />
+    </fragment>
+    <fragment
+        android:id="@+id/addProductFragment2"
+        android:name="com.example.fitnessapp.Fragments.Meal.AddProductFragment"
+        android:label="fragment_add_product"
+        tools:layout="@layout/fragment_add_product" >
+        <action
+            android:id="@+id/action_addProductFragment2_to_caloriesDaily"
+            app:destination="@id/caloriesDaily" />
+    </fragment>
+    <fragment
+        android:id="@+id/vezbiFragment"
+        android:name="com.example.fitnessapp.Fragments.GYM.VezbiFragment"
+        android:label="fragment_vezbi"
+        tools:layout="@layout/fragment_vezbi" >
+        <action
+            android:id="@+id/action_vezbiFragment_to_exercisesFragment"
+            app:destination="@id/exercisesFragment" />
+        <action
+            android:id="@+id/action_vezbiFragment_to_detailsVezbaFragment"
+            app:destination="@id/detailsVezbaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsVezbaFragment"
+        android:name="com.example.fitnessapp.Fragments.GYM.DetailsVezbaFragment"
+        android:label="fragment_details_vezba"
+        tools:layout="@layout/fragment_details_vezba" />
+    <fragment
+        android:id="@+id/waterDaily"
+        android:name="com.example.fitnessapp.Fragments.WaterDaily"
+        android:label="fragment_water_daily"
+        tools:layout="@layout/fragment_water_daily" >
+        <action
+            android:id="@+id/action_waterDaily_self"
+            app:destination="@id/waterDaily" />
+    </fragment>
+</navigation>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.GYM.DetailsVezbaFragment">
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:id="@+id/gifDetails"
+        android:layout_width="343dp"
+        android:layout_height="219dp"
+
+
+        android:layout_marginTop="32dp"
+        android:src="@drawable/sssssss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameGifDetails"
+        android:layout_width="246dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="25dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bodyPartGifDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifDetails" />
+
+    <TextView
+        android:id="@+id/targetGifDetails"
+        android:layout_width="137dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="136dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bodyPartGifDetails" />
+
+    <TextView
+        android:id="@+id/bodyPartGifDetails"
+        android:layout_width="142dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="32dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/targetGifDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameGifDetails" />
+
+    <TextView
+        android:id="@+id/secondsS"
+        android:layout_width="137dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="134dp"
+        android:background="#40D046"
+        android:text="START"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/targetGifDetails" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

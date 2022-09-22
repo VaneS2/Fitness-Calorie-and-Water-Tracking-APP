@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fitnessapp.MainActivity">
+    <item
+        android:id="@+id/FirstFragment"
+        android:icon="@drawable/ic_news"
+        android:orderInCategory="100"
+        android:title="News"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/caloriesDaily"
+        android:icon="@drawable/ic_meal"
+        android:orderInCategory="100"
+        android:title="Meal"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/exercisesFragment"
+        android:icon="@drawable/ic_baseline_fitness_center_24"
+        android:orderInCategory="100"
+        android:title="Exercises"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:orderInCategory="100"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+
+
+
+
+
+</menu>

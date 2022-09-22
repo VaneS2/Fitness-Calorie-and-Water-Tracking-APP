@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Meal.DailyActivityFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="314dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:text="Please choose your daily activity level"
+        android:textAlignment="center"
+        android:textColor="#393131"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+
+        android:id="@+id/btOne"
+        android:layout_width="286dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_style"
+        android:text="Very Light - Typical office job (sitting, studying, little
+walking throughout the day)"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btTwo"
+        android:layout_width="283dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_style"
+        android:text="Light - Any job where you mostly stand or walk (teaching, shop/lab work)"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btOne" />
+
+    <Button
+        android:id="@+id/btThree"
+
+        android:layout_width="283dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_style"
+        android:text="Moderate - job requiring physical activity (landscaping, cleaning, maintenance, jogging/biking)"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btTwo" />
+
+    <Button
+        android:id="@+id/btFour"
+        android:layout_width="283dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_style"
+        android:text="Heavy - Heavy manual labor (Construction, dancer, athlete, hard physical activity)"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btThree" />
+
+    <Button
+        android:id="@+id/btFive"
+        android:layout_width="283dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_style"
+        android:text="Very Heavy - Moderate to hard physical activity min 8 hours/ day"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btFour" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

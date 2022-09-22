@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/mealFragment">
+    <fragment
+        android:id="@+id/mealFragment"
+        android:name="com.example.fitnessapp.Fragments.Meal.MealFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_mealFragment_to_dailyActivityFragment2"
+            app:destination="@id/dailyActivityFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/dailyActivityFragment2"
+        android:name="com.example.fitnessapp.Fragments.Meal.DailyActivityFragment"
+        android:label="fragment_daily_activity"
+        tools:layout="@layout/fragment_daily_activity" >
+        <action
+            android:id="@+id/action_dailyActivityFragment2_to_infoFragment2"
+            app:destination="@id/infoFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment2"
+        android:name="com.example.fitnessapp.Fragments.Meal.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
